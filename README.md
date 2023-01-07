@@ -9,8 +9,8 @@ For now, this will just document my findings.
   - [x] [notes](#notes)
   - [x] [picture](#picture)
   - [x] [urls](#urls)
-  - [ ] [birthday](#birthday)
-  - [ ] more later, these are the ones i care about
+  - [x] [birthday](#birthday)
+  - [x] more later, these are the ones i care about
 - [ ] How to call in using a dict OR call a function isntead of just a script
 - [ ] How to create new contact
 - [ ] How to add details to contact
@@ -83,3 +83,9 @@ This a bunch of hex stuff, it's probably the literal file data. I don't want to 
 ## urls
 The standard list of tuples. The label "homepage" is `'_$!<HomePage>!$_'`, and "home" is `'_$!<Home>!$_'`. Interestingly, the custom label "Custom haha" is `Custom haha`. Content that appears as "amazinga.com" is reported as "http://amazinga.com" in the contacts app, so it seems that is added in automatically (why not https?).
 ## birthday
+This is a 'datetime.datetime' object. Thats YYYY-MM-DD HH:MM:SS (I think it defaulted to 05:00:00). Don't think there's a clear cut way to access other datetimes like anniversary.
+## Other
+### Nickname
+nickname is just a string
+### organization
+also just a string
