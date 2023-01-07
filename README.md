@@ -8,7 +8,7 @@ For now, this will just document my findings.
   - [x] [social profiles](#social-profiles)
   - [x] [notes](#notes)
   - [x] [picture](#picture)
-  - [ ] [urls](#urls)
+  - [x] [urls](#urls)
   - [ ] [birthday](#birthday)
   - [ ] more later, these are the ones i care about
 - [ ] How to call in using a dict OR call a function isntead of just a script
@@ -81,4 +81,5 @@ This one's interesting. It seems that the contacts package includes a `.note` at
 ## picture
 This a bunch of hex stuff, it's probably the literal file data. I don't want to mess with that, let's do it in shortcuts. Either way, I think it doesn't translate well in the QR code. 
 ## urls
+The standard list of tuples. The label "homepage" is `'_$!<HomePage>!$_'`, and "home" is `'_$!<Home>!$_'`. Interestingly, the custom label "Custom haha" is `Custom haha`.
 ## birthday
