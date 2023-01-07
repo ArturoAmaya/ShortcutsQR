@@ -2,8 +2,8 @@ For now, this will just document my findings.
 
 # Todo
 - [ ] Format of:
-  - [ ] [email](#Email)
-  - [ ] [phone number](#phone-number)
+  - [x] [email](#Email)
+  - [x] [phone number](#phone-number)
   - [ ] address
   - [ ] social profiles
   - [ ] notes
@@ -35,6 +35,20 @@ Phone numbers are stored as a list. Each entry in the list is a 2-tuple, with la
 ```
 The "()" are chars, as is the space and the "-". The string is 14 chars long.
 ## address
+List, then tuples. The label follows the same format as the others. The contents is a `dict`. 
+A standard one looks like this:
+```
+{
+    'Street': '5185 Example Lane\n899',
+    'ZIP': '44155',
+    'City': San Fransisco',
+    'CountryCode': us,
+    'State': 'CA',
+    'Country': 'United States'
+}
+```
+Where "899" is the address line 2 contents.
+
 ## social profiles
 ## notes
 ## picture
