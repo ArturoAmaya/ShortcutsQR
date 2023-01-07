@@ -4,12 +4,12 @@ For now, this will just document my findings.
 - [ ] Format of:
   - [x] [email](#Email)
   - [x] [phone number](#phone-number)
-  - [x] address
-  - [x] social profiles
-  - [ ] notes
-  - [ ] picture
-  - [ ] urls
-  - [ ] birthday
+  - [x] [address](#address)
+  - [x] [social profiles](#social-profiles)
+  - [ ] [notes](#notes)
+  - [ ] [picture](#picture)
+  - [ ] [urls](#urls)
+  - [ ] [birthday](#birthday)
   - [ ] more later, these are the ones i care about
 - [ ] How to call in using a dict OR call a function isntead of just a script
 - [ ] How to create new contact
