@@ -5,7 +5,7 @@ For now, this will just document my findings.
   - [x] [email](#Email)
   - [x] [phone number](#phone-number)
   - [x] address
-  - [ ] social profiles
+  - [x] social profiles
   - [ ] notes
   - [ ] picture
   - [ ] urls
@@ -50,6 +50,32 @@ A standard one looks like this:
 Where "899" is the address line 2 contents.
 
 ## social profiles
+Again, list then tuples. The label seems a lot more normal. For example, the label for the "Twitter" profile is `'Twitter'`, the label for "Facebook" is `'Facebook'`, "Slack" is `'Slack'` etc. Even the custom "Pokemon GO" shows up as `'Pokémon GO'`.
+
+The contents is a little complicated. It is a dict. Rather than explain, here are two examples:
+
+Twitter, with a profile name of "mytwitter", which shows up on the contact card as "@mytwitter":
+
+```
+{
+    'url': 'http://twitter.com/mytwitter',
+    'username': 'mytwitter',
+    'service': 'twitter'
+}
+```
+
+The custom Pokémon GO label with content "lmao ok"
+```
+{
+    'url': 'x-apple:lmao%20ok',
+    'username': 'lmao ok',
+    'service': 'Pokémon GO'
+}
+```
+The twitter one opens safari or the actual twitter app. Not sure what the x-apple ones do. Maybe I could replace them with my url but that's not a big deal.
+
+Any future updates my occur here.
+
 ## notes
 ## picture
 ## urls
