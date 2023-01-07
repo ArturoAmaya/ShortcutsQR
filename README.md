@@ -2,7 +2,7 @@ For now, this will just document my findings.
 
 # Todo
 - [ ] Format of:
-  - [ ] email
+  - [ ] [email](#Email)
   - [ ] phone number
   - [ ] address
   - [ ] social profiles
@@ -15,3 +15,6 @@ For now, this will just document my findings.
 - [ ] How to create new contact
 - [ ] How to add details to contact
 - [ ] How to remove contact
+
+# Formats
+## Email
