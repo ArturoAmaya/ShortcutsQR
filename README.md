@@ -18,3 +18,4 @@ For now, this will just document my findings.
 
 # Formats
 ## Email
+Email is stored as a list. That is, `contact.email[0]` refers to the first possible email and `contact.email[1]` to the next and so on.
