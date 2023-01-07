@@ -77,6 +77,7 @@ The twitter one opens safari or the actual twitter app. Not sure what the x-appl
 Any future updates my occur here.
 
 ## notes
+This one's interesting. It seems that the contacts package includes a `.note` attribute for contact objects. It is supposed to rreturn a string. However, used with a dummy contact with a notes section with multiple lines, it returns None, i.e. it found nothing. Attempting write to that field does not affect the notes field in the contact. Thus, this part should probably be done through the shortcuts section.
 ## picture
 ## urls
 ## birthday
