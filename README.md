@@ -81,5 +81,5 @@ This one's interesting. It seems that the contacts package includes a `.note` at
 ## picture
 This a bunch of hex stuff, it's probably the literal file data. I don't want to mess with that, let's do it in shortcuts. Either way, I think it doesn't translate well in the QR code. 
 ## urls
-The standard list of tuples. The label "homepage" is `'_$!<HomePage>!$_'`, and "home" is `'_$!<Home>!$_'`. Interestingly, the custom label "Custom haha" is `Custom haha`.
+The standard list of tuples. The label "homepage" is `'_$!<HomePage>!$_'`, and "home" is `'_$!<Home>!$_'`. Interestingly, the custom label "Custom haha" is `Custom haha`. Content that appears as "amazinga.com" is reported as "http://amazinga.com" in the contacts app, so it seems that is added in automatically (why not https?).
 ## birthday
