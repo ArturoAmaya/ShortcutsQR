@@ -6,8 +6,8 @@ For now, this will just document my findings.
   - [x] [phone number](#phone-number)
   - [x] [address](#address)
   - [x] [social profiles](#social-profiles)
-  - [ ] [notes](#notes)
-  - [ ] [picture](#picture)
+  - [x] [notes](#notes)
+  - [x] [picture](#picture)
   - [ ] [urls](#urls)
   - [ ] [birthday](#birthday)
   - [ ] more later, these are the ones i care about
@@ -79,5 +79,6 @@ Any future updates my occur here.
 ## notes
 This one's interesting. It seems that the contacts package includes a `.note` attribute for contact objects. It is supposed to rreturn a string. However, used with a dummy contact with a notes section with multiple lines, it returns None, i.e. it found nothing. Attempting write to that field does not affect the notes field in the contact. Thus, this part should probably be done through the shortcuts section.
 ## picture
+This a bunch of hex stuff, it's probably the literal file data. I don't want to mess with that, let's do it in shortcuts. Either way, I think it doesn't translate well in the QR code. 
 ## urls
 ## birthday
