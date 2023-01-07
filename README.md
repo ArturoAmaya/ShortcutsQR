@@ -3,7 +3,7 @@ For now, this will just document my findings.
 # Todo
 - [ ] Format of:
   - [ ] [email](#Email)
-  - [ ] phone number
+  - [ ] [phone number](#phone-number)
   - [ ] address
   - [ ] social profiles
   - [ ] notes
