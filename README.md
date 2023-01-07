@@ -19,3 +19,11 @@ For now, this will just document my findings.
 # Formats
 ## Email
 Email is stored as a list. That is, `contact.email[0]` refers to the first possible email and `contact.email[1]` to the next and so on.
+
+Each entry, i.e. email, is a tuple. The contents in side the tuple are:
+```
+(label,contents)
+```
+The label format is a little strange - the "home" label appears as `_$!<Home>!$_`
+The contents is fine.
+They are both type `str`
