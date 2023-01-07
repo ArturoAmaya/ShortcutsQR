@@ -4,7 +4,7 @@ For now, this will just document my findings.
 - [ ] Format of:
   - [x] [email](#Email)
   - [x] [phone number](#phone-number)
-  - [ ] address
+  - [x] address
   - [ ] social profiles
   - [ ] notes
   - [ ] picture
