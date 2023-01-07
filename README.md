@@ -1,0 +1,17 @@
+For now, this will just document my findings.
+
+# Todo
+- [ ] Format of:
+  - [ ] email
+  - [ ] phone number
+  - [ ] address
+  - [ ] social profiles
+  - [ ] notes
+  - [ ] picture
+  - [ ] urls
+  - [ ] birthday
+  - [ ] more later, these are the ones i care about
+- [ ] How to call in using a dict OR call a function isntead of just a script
+- [ ] How to create new contact
+- [ ] How to add details to contact
+- [ ] How to remove contact
