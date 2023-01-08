@@ -117,3 +117,15 @@ I'll pass in a dict. The dict will be structured the way that the fields explore
 Funnily enough, shortcuts passes it in as a string, so don't forget to use eval() to turn it into a real dict.
 
 For some reason, there's only one shortcut that seems to be able to work to call only one pythonista script too. All the others (even literal copies bar the name of the pythonista script) give URL errors for no reason. TODO investigate.
+
+# Approach
+Pass in a dict which essentially just says which labels of the contact Pythonista should extract. Passing in the exact values for Pythonista to just paste in is apparently not efficient since 
+- one, shortcuts is very frickin annoying
+- two, shortcuts is *very* fricking annoying
+- three, I'd have to manually encode the address information since the get dictionary from input action doesn't understand the results of a location, and the dictionary object in shortcuts is annoying.
+
+However, I want to do the least work possible in Pythonista, since it draws a separate app open and I have to wait for it to finish, and I would have to deal with opening the shortcut back up.
+
+My current decision is to do the bulk of the work in Pythonista. Pythonista uses a real language rather than super powered visual basic/scratch. There are a few considerations:
+- extracting the data where there are special labels like `'_$!<Home>!$_` or whatever is going to be annoying
+- launching the same shortcut from another place is going to be annoying.
