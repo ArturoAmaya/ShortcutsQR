@@ -111,3 +111,9 @@ contacts.add_person(contact)
 # save
 contacts.save()
 ```
+
+# Passing in a parameter
+I'll pass in a dict. The dict will be structured the way that the fields explored above are. 
+Funnily enough, shortcuts passes it in as a string, so don't forget to use eval() to turn it into a real dict.
+
+For some reason, there's only one shortcut that seems to be able to work to call only one pythonista script too. All the others (even literal copies bar the name of the pythonista script) give URL errors for no reason. TODO investigate.
