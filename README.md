@@ -24,7 +24,7 @@ Each entry, i.e. email, is a 2-tuple. The contents in side the tuple are:
 ```
 (label,contents)
 ```
-The label format is a little strange - the "home" label appears as `_$!<Home>!$_`
+The label format is a little strange - the "home" label appears as `_$!<Home>!$_`. Similar for school, but not for icloud. This isn't great.
 The contents is fine.
 They are both type `str`.
 
@@ -33,7 +33,7 @@ Phone numbers are stored as a list. Each entry in the list is a 2-tuple, with la
 ```
 (###) ###-####
 ```
-The "()" are chars, as is the space and the "-". The string is 14 chars long.
+The "()" are chars, as is the space and the "-". The string is 14 chars long. "iPhone" label is `iPhone`, so that's weird. 
 ## address
 List, then tuples. The label follows the same format as the others. The contents is a `dict`. 
 A standard one looks like this:
