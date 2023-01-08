@@ -129,3 +129,18 @@ However, I want to do the least work possible in Pythonista, since it draws a se
 My current decision is to do the bulk of the work in Pythonista. Pythonista uses a real language rather than super powered visual basic/scratch. There are a few considerations:
 - extracting the data where there are special labels like `'_$!<Home>!$_` or whatever is going to be annoying
 - launching the same shortcut from another place is going to be annoying.
+
+The structure of the dict will be something like this:
+```
+{
+    'First Name': 'John',
+    'Last Name': Doe,
+    'Email': ['work','home','custom'],
+    'Phone Number': ['work','home','custom'],
+    'Address': ['work','home','custom'],
+    'Social Profiles': ['twitter','snapchat','custom'],
+    'URLs': ['home','work','custom']
+    'Birthday': ['birthday']
+}
+
+The notes section must be handled by shortcuts, per the findings in the [Notes](#notes) section.
