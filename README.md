@@ -11,10 +11,10 @@ For now, this will just document my findings.
   - [x] [urls](#urls)
   - [x] [birthday](#birthday)
   - [x] more later, these are the ones i care about
-- [ ] How to call in using a dict OR call a function isntead of just a script
-- [ ] How to create new contact
-- [ ] How to add details to contact
-- [ ] How to remove contact
+- [x] How to call in using a dict OR call a function isntead of just a script
+- [x] How to create new contact
+- [x] How to add details to contact
+- [x] How to remove contact
 
 # Formats
 ## Email
@@ -95,4 +95,19 @@ Vcard seems to be a parameter that can be accessed but it just seems to be empty
 # Call in using a dict
 Totally doable, apparently its super easy in shortcuts... See the shortcuts example in your library TODO: update with public one
 
-#
+# Create, edit and add a contact
+SUper easy. Example:
+
+```
+import contacts
+
+contact = contacs.Person()
+contact.first_name = "John"
+contact.last_name = "Doe"
+
+# add to contacts
+contacts.add_person(contact)
+
+# save
+contacts.save()
+```
