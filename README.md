@@ -89,3 +89,10 @@ This is a 'datetime.datetime' object. Thats YYYY-MM-DD HH:MM:SS (I think it defa
 nickname is just a string
 ### organization
 also just a string
+### vcard
+Vcard seems to be a parameter that can be accessed but it just seems to be empty here. interesting.
+
+# Call in using a dict
+Totally doable, apparently its super easy in shortcuts... See the shortcuts example in your library TODO: update with public one
+
+#
